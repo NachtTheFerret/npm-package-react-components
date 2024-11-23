@@ -1,0 +1,65 @@
+{
+  "name": "@ferret-tools/react-components",
+  "version": "1.0.0",
+  "main": "dist/cjs/index.js",
+  "module": "dist/esm/index.js",
+  "types": "dist/index.d.ts",
+  "engines": {
+    "node": ">=8",
+    "npm": ">=5"
+  },
+  "scripts": {
+    "build": "rollup -c",
+    "start": "rollup -c -w",
+    "storybook:dev": "storybook dev -p 6006"
+  },
+  "files": [
+    "dist"
+  ],
+  "keywords": [],
+  "author": "NachtTheFerret",
+  "license": "Apache-2.0",
+  "description": "",
+  "devDependencies": {
+    "@babel/core": "^7.26.0",
+    "@babel/preset-env": "^7.26.0",
+    "@babel/preset-react": "^7.25.9",
+    "@babel/preset-typescript": "^7.26.0",
+    "@rollup/plugin-babel": "^6.0.4",
+    "@rollup/plugin-node-resolve": "^15.3.0",
+    "@rollup/plugin-replace": "^6.0.1",
+    "@storybook/addon-essentials": "^8.4.4",
+    "@storybook/addon-links": "^8.4.5",
+    "@storybook/addon-postcss": "^2.0.0",
+    "@storybook/addon-webpack5-compiler-babel": "^3.0.3",
+    "@storybook/react": "^8.4.4",
+    "@storybook/react-webpack5": "^8.4.4",
+    "@types/react": "^18.3.12",
+    "@types/react-dom": "^18.3.1",
+    "autoprefixer": "^10.4.20",
+    "babel-core": "^6.26.3",
+    "babel-runtime": "^6.26.0",
+    "css-loader": "^7.1.2",
+    "eslint": "^9.15.0",
+    "postcss": "^8.4.49",
+    "postcss-import": "^16.1.0",
+    "prettier": "^3.3.3",
+    "react": "^18.3.1",
+    "react-docgen-typescript": "^2.2.2",
+    "react-dom": "^18.3.1",
+    "rollup": "^4.27.3",
+    "rollup-plugin-dts": "^6.1.1",
+    "rollup-plugin-peer-deps-external": "^2.2.4",
+    "rollup-plugin-postcss": "^4.0.2",
+    "rollup-plugin-typescript2": "^0.36.0",
+    "storybook": "^8.4.4",
+    "style-loader": "^4.0.0",
+    "tailwindcss": "^3.4.15",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.6.3"
+  },
+  "peerDependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  }
+}
